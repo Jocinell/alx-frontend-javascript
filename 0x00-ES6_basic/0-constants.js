@@ -1,10 +1,10 @@
-const taskFirst = () => {
+export const taskFirst = () => {
   const value = "This is for const";
 
   return value;
 };
 
-const taskNext = () => {
+export const taskNext = () => {
   let value = "This is for let";
 
   return value;
